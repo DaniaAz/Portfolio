@@ -55,6 +55,23 @@ h3 {
   -webkit-margin-before: 0px;
   padding-left: 158px;
 }
-span {
+
+#logo-span {
   width: 20%;
+}
+
+
+/*
+ *
+ * MAIN IMAGE CONTENT
+ *
+ */
+
+.main-content {
+  width: 70%;
+  padding: 36px 0px 0px 328px;
+}
+
+.main-img {
+  width: 100%;
 }
