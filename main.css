@@ -4,6 +4,11 @@
  *
  */
 
+body {
+  line-height: 1.25em;
+  font-family: fantasy;
+}
+
 header {
   font-weight: normal;
   color: #2d3c49;
@@ -14,12 +19,13 @@ header {
 
 .vertical-centerer {
   height: 100%;
-  width: 100%;
+width: 100%;
   flex-direction: row;
 }
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .space-between {
@@ -74,4 +80,54 @@ h3 {
 
 .main-img {
   width: 100%;
+}
+
+
+/*
+.parent-full-length {
+  width: 100%;
+} */
+
+/* .linked-img-div {
+  width: 33.3%;
+} */
+
+.linked-img {
+  width: 98%;
+  order: 0;
+}
+
+#linked-img-name {
+  width: 100%;
+  order: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#linked-img-link {
+  width: 100%;
+  order: 2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-align-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.first-img-container {
+  width: 33.33%;
+  order:0;
+}
+
+
+.second-img-container {
+  width: 33.33%;
+  order:1;
+}
+
+.third-img-container {
+  width: 33.33%;
+  order:1;
 }
