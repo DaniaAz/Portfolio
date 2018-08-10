@@ -217,16 +217,25 @@ h3 {
 
   .header-user-name {
     width: 100%;
-    font-size: 49px;
+    /* font-size: 49px; */
   }
   .header-user-role {
     width: 100%;
-    padding: 0px 0px 0px 87px;
+    /* padding: 0px 0px 0px 87px; */
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
     font-size: 22px;
   }
 
   .main-img-section {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 49px;
+    text-align: center;
+    vertical-align: middle;
   }
 }
   /* header {
