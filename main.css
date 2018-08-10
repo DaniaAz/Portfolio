@@ -13,6 +13,9 @@ body {
 .main-wrapper {
   display: flex;
   flex-wrap: wrap;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -21,12 +24,12 @@ header {
   color: #2d3c49;
   background: white;
   width: 100%;
-  padding: 11px 0px 0px 328px;
+  /* padding: 11px 0px 0px 328px; */
 }
 
 main {
   width: 100%;
-  padding: 36px 0px 0px 328px;
+  padding: 36px 0px 0px 0px;
   order: 1;
 }
 
@@ -61,7 +64,7 @@ main {
 
 .header-texts {
   order: 1;
-  width: 34%;
+  width: 39%;
   line-height: 1.25em;
   display: flex;
   flex-wrap: wrap;
@@ -89,11 +92,6 @@ h3 {
  *
  */
 
-/* .main-content {
-  width: 70%;
-  padding: 36px 0px 0px 328px;
-} */
-
 .main-img {
   width: 100%;
 }
@@ -105,7 +103,7 @@ h3 {
 
 .main-content-section {
   order: 1;
-  width: 100;
+  width: 100%;
 }
 
 
@@ -120,18 +118,6 @@ h3 {
 }
 
 
-
-
-
-/*
-.parent-full-length {
-  width: 100%;
-} */
-
-/* .linked-img-div {
-  width: 33.3%;
-} */
-
 .linked-img {
   width: 98%;
   order: 0;
@@ -141,34 +127,27 @@ h3 {
   width: 100%;
   order: 1;
   text-align: center;
-  vertical-align: middle;
 }
 
 #linked-img-link {
   width: 100%;
   order: 2;
   text-align: center;
-  vertical-align: middle;
-}
-
-.text-align-center {
-  text-align: center;
-  vertical-align: middle;
 }
 
 .first-img-container {
-  width: 100%;
+  width: 33.3%;
   order:0;
 }
 
 
 .second-img-container {
-  width: 100%;
+  width: 33.3%;
   order:1;
 }
 
 .third-img-container {
-  width: 100%;
+  width: 33.3%;
   order:2;
 }
 
@@ -237,36 +216,16 @@ h3 {
     text-align: center;
     vertical-align: middle;
   }
-}
-  /* header {
+
+  .first-img-container {
     width: 100%;
   }
-  main {
-    width: 100%;
-  } */
 
-  /* .header-content {
+  .second-img-container {
+    width: 100%;
+  }
+
+  .third-img-container {
     width: 100%
   }
-
-  #logo-span {
-    order: 0;
-    width: 100%;
-  }
-
-  .header-texts {
-    order: 1;
-    width: 100%;
-  }
-
-  .header-user-name {
-    order: 1;
-    width: 100%;
-  }
-
-  .header-user-role {
-    padding-left: 0px;
-    order: 0;
-    width: 100%;
-  } */
 }
